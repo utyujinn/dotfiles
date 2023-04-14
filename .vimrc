@@ -1,8 +1,8 @@
 "---------ファイル生成-----------------------------------------------------------------------------"
 
 ".vimでvimファイル管理
-if !isdirectory('./.vim')
-    call mkdir('.vim')
+if !isdirectory('./.vimse')
+    call mkdir('.vimse')
 endif
 
 "---------プラグイン設定---------------------------------------------------------------------------"
@@ -22,7 +22,7 @@ Jetpack 'xolox/vim-session'
 call jetpack#end()
 
 "セッションディレクトリを設定
-let g:session_directory = './.vim'
+let g:session_directory = './.vimse'
 " vimを辞める時に自動保存
 let g:session_autosave = 'yes'
 " 引数なしでvimを起動した時にsession保存ディレクトリのdefault.vimを開く
@@ -79,9 +79,9 @@ set smartcase
 "set directory=%USERDATA%\vimfiles\swap//
 "set undofile
 "set undodir=%USERDATA%\vimfiles\undodir
-set directory=./.vim
+set directory=./.vimse
 set undofile
-set undodir=./.vim
+set undodir=./.vimse
 "adf
 "packloadall
 "silent! helptags ALL
