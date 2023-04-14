@@ -9,6 +9,7 @@ endif
 
 packadd vim-jetpack
 call jetpack#begin()
+Jetpack 'tani/vim-jetpack'
 "[等でバッファの移動
 Jetpack 'tpope/vim-unimpaired'
 "テキスト履歴のツリー管理
