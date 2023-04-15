@@ -64,6 +64,8 @@ set foldmethod=indent
 
 "検索結果のハイライトを行う。
 set hlsearch
+"ESC2回で消えるようにする
+nnoremap <ESC><ESC> :nohl<CR>
 "入力のたびに検索する。
 set incsearch
 "大文字小文字を区別しない。
