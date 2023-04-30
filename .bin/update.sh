@@ -1,2 +1,4 @@
+cd "$(dirname "$0")"
+cd ../..
 git clone git@github.com:utyujinn/dotfiles.git
-./dotfiles/.bin/install.sh
+sh ./dotfiles/.bin/install.sh

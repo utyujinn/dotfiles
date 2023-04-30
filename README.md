@@ -17,7 +17,13 @@ sh ./dotfiles/.bin/install.sh
 ```
 
 ## Update
-1. To update vimse files, Go to cloned directory, and do this command.
+1. To update dotfiles, Go to .bin, and do this command.
 ```
-./dotfiles/.bin/update.sh
+sh update.sh
+```
+
+## Uninstall
+1. To remove files, Go to .bin, and do this command.
+```
+sh uninstall.sh
 ```
