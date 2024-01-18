@@ -1,0 +1,27 @@
+[window]
+  dimensions = {columns = 200, lines = 60}
+
+  padding = {x = 0, y = 0}
+
+[scrolling]
+  history = 10000
+
+  multiplier = 3
+
+[font]
+  normal = {family = 'setofont', style = 'Regular'}
+
+  bold = {family = 'setofont', style = 'Regular'}
+
+  size = 9.0
+
+  offset = {y = 0}
+
+[colors.primary]
+  foreground = '#ffe0f0'
+  background = '#000000'
+
+[shell]
+  program = '/bin/zsh'
+  args = ['-l','-c','tmux a -t 0 || tmux']
+  
