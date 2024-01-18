@@ -1,14 +1,14 @@
 # dotfiles
-Dotfiles for debian.
+Dotfiles for arch.
 
 ## Installation
-1. To install this, Go to your home directory, and do this command.
+1. First, clone repository.
 ```
 git clone https://github.com/utyujinn/dotfiles
 ```
 2. Next, install dotfiles.
 ```
-sh ./dotfiles/.bin/install.sh 
+sh ./dotfiles/sh/install.sh 
 ```
 
 3. Open vim and Do this.
@@ -17,13 +17,13 @@ sh ./dotfiles/.bin/install.sh
 ```
 
 ## Update
-1. To update dotfiles, Go to .bin, and do this command.
+1. To update dotfiles, Go to sh, and do this.
 ```
 sh update.sh
 ```
 
 ## Uninstall
-1. To remove files, Go to .bin, and do this command.
+1. To remove files, Go to sh, and do this.
 ```
 sh uninstall.sh
 ```
