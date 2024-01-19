@@ -1,7 +1,8 @@
 cd $(dirname $0)
 cp ../.Xmodmap    ~/.Xmodmap
 cp ../.alacritty.toml ~/.alacritty.toml
-cp ../.i3 ~/.i3
+cp ../.gitconfig ~/.gitconfig
+cp ../.i3 ~/.i3 -r
 cp ../.tmux.conf  ~/.tmux.conf
 cp ../.vimrc      ~/.vimrc
 cp ../.xinitrc    ~/.xinitrc
